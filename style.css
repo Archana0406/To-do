@@ -1,0 +1,71 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ul li{
+    font-weight: 600;
+    font-size:20px;
+    list-style-type: decimal;
+}
+body{
+    background-image:url(images/pink.jpg);
+}
+#input{
+    margin:20px;
+    padding:4px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline:none;
+    border:none;
+}
+button{
+    padding:10px;
+    margin:10px;
+    border-radius: 18px;
+    font-size:16px;
+    border:3px solid #5d015f;
+    color:#5d015f;
+    transition: all 0.2s linear;
+    background: transparent;
+}
+button:hover{
+    background:#5d015f;
+  
+    color:white;
+}
+header h1{
+font-size: 50px;
+background: rgb(18,0,36);
+color:transparent;
+padding-top:30px;
+text-align:center;
+background-clip: text;
+background-size:400% 400%;
+animation:animatetext 4s ease-in-out infinite;
+background-image: linear-gradient(to right bottom, #7efe82, #00a496,rgb(124, 0, 128), #d044d3,rgb(124, 0, 128), #dd0090, #00caf2,#0e267c, #00fede, #ba106a, #69016d, #ebdc53, #19ebd3);
+}
+@keyframes animatetext{
+0%{
+background-position: 0%; 
+}
+50%{
+background-position: 100%; 
+}
+100%{
+background-position: 0%; 
+}
+}
+ul{
+    padding:10px;
+}
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    padding:110px;
+}
