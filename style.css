@@ -6,7 +6,7 @@
 body{
     font-family: "Poppins",sans-serif;
 }
-.contain{
+.container{
     width:100vw;
     height:100vh;
     padding-top:40px;
